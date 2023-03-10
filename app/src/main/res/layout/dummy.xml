@@ -11,7 +11,7 @@ android:background="@color/teal_200"
 <!--        android:id="@+id/email"-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
 <!--        android:layout_marginTop="10dp"-->
 <!--android:textColor="@color/black"-->
 <!--        android:text="xyzw@gmail.com"-->
@@ -22,18 +22,21 @@ android:background="@color/teal_200"
 
     <TextView
         android:id="@+id/message"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="20dp"
         android:text="How are You?"
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toStartOf="@+id/time"
         app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:ignore="UnknownIdInLayout" />
 
 <!--    <TextView-->
 <!--        android:id="@+id/time"-->
